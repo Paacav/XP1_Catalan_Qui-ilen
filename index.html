@@ -7,8 +7,10 @@
     <title>PET-CLICK</title>
     <link rel="icon" href="imglogos/imagen.png.jpg" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
+    
 
     <style>
         .bd-placeholder-img {
@@ -53,16 +55,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="informacion.html">INFORMACION</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">SUSCRIPCION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="calculadora.html">CALCULADORA</a>
+                </li>
+                
+                
             </ul>
-            <form class="form-inline mt-2 mt-md-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="¿Qué producto buscas?" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnBuscar">Buscar</button>
-            </form>
-            <div>
-                <a href="login.html" id="userBookStop">
-                    <img src="img/user-vector-icon.png" alt="userBookStop" width="20px" href="iniciosesion.html">Iniciar sesión
-                </a>
-            </div>
         </div>
     </nav>
 
@@ -213,19 +214,11 @@
             <div class="col-lg-2">
                 <a href="informacion.html" id="linkFooter"><strong>INFORMACION</strong></a>
             </div>
-
             <div class="col-lg-2">
-                <strong>Síguenos</strong>
-                <br><br>
-                <div class="row">
-                    <img src="imglogos/Logo_de_Facebook.jpg" alt="" width="30px" height="30px" 
-                        style=" margin-left: 15px;">
-                    <img src="imglogos/twitter.kjpg.webp" alt="" width="30px" height="30px" style=" margin-left: 10px;">
-                    <img src="imglogos/instagramhhhh.jpg" alt="" width="30px" height="30px" style=" margin-left: 10px;">
-
-                </div>
+                <a href="calculadora.html" id="linkFooter"><strong>CALCULADORA</strong></a>
             </div>
-
+            
+            <br>
 
             <div class="col-lg-3">
 
@@ -235,6 +228,7 @@
                     <img src="img/location.png" alt="" width="20px" height="20px"
                         style="margin-right: 10px; margin-left: 15px;">
                     <p>Av. Esq. Blanca 501, Maipú</p>
+                    
                 </div>
                 <div class="row">
                     <img src="img/fono.png" alt="" width="20px" height="20px"
@@ -246,9 +240,18 @@
                         style="margin-right: 10px; margin-left: 15px;">
                     <p>consulta@Pet-click.cl</p>
                 </div>
+                <div class="row">
+                    <a href="https://es-la.facebook.com/" target="_blank"><img src="imglogos/Logo_de_Facebook.jpg" alt="" width="30px" height="30px" 
+                        style=" margin-left: 15px;">
+                    <a href="https://twitter.com/i/flow/login/" target="_blank"><img src="imglogos/twitter.kjpg.webp" alt="" width="30px" height="30px" style=" margin-left: 10px;">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="imglogos/instagramhhhh.jpg" alt="" width="30px" height="30px" style=" margin-left: 10px;">
+                    
+                </div>
+
+
                 <br><br><br>
 
-                <p>&copy; Pet-clicK</Pet-clicK> - 2018</p>
+                <p>&copy; Pet-clicK</Pet-clicK> - 2024</p>
             </div>  
         </div>
     </footer>
@@ -260,7 +263,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Designed by <a class="text-white" href=""> lukas quiñilen & patricio catalan</a></p>
+                    <p class="mb-0">Designed by <a class="text-white" href=""> Lukas Quiñilen & Patricio Catalan</a></p>
                 </div>
             </div>
         </div>
@@ -275,7 +278,7 @@
                 document.getElementById("barraNav").style.top = "0";
             }
             else {
-                document.getElementById("barraNav").style.top = "-70px";
+                document.getElementById("barraNav").style.top = "-100px";
             }
             ubicacionInicial = ubicacionPosterior
         }
@@ -289,6 +292,7 @@
 <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/validacion.js"></script>
+
 
 </html>
 

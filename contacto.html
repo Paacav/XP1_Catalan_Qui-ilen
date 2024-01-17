@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PET-CLICK suscripcion</title>
+    <link rel="icon" href="imglogos/imagen.png.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+    <link rel="stylesheet" href="css/estilos_contacto.css">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <script src="js/funciones.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light mb-4" id="barraNav">
+        <a href="index.html" id="logoBookStop">
+            <img src="imglogos/imagen.png.jpg" alt="logoBookStop" width="90px">
+        </a>
+        <!-- botón hamburguesa -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produc.html">PRODUCTO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carito.html">CARRITO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="informacion.html">INFORMACION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="calculadora.html">CALCULADORA</a>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </nav>
+    <br><br><br><br>
+    <div class="container">
+        <form id="miformulario" method="post" aria-required="true">
+            <h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">SUSCRIPCION</h2>
+            <hr>
+            <br>
+            <div class="form-group">
+                <label for="nom" style="font-family: Arial, Helvetica, sans-serif;">Nombre:</label>
+                <input type="text" name="nom" id="nom" placeholder="Ingresar nombre" minlength="3" class="form-control" onfocus="cambiarColorNOM()" onblur="restaurarDiseñoNOM()" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="a_paterno" style="font-family: Arial, Helvetica, sans-serif;">Apellido paterno:</label>
+                <input type="text" name="a_paterno" id="a_paterno" placeholder="Ingrese su apellido paterno" minlength="3" class="form-control" onfocus="cambiarColorAP()" onblur="restaurarDiseñoAP()" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="a_materno" style="font-family: Arial, Helvetica, sans-serif;">Apellido materno:</label>
+                <input type="text" name="a_materno" id="a_materno" placeholder="Ingrese su apellido materno" minlength="3" class="form-control" onfocus="cambiarColorAM()" onblur="restaurarDiseñoAM()" required>
+            </div>
+            <br>
+            <div class="form-group" style="font-family: Arial, Helvetica, sans-serif;">
+                <label for="correo">Correo:</label>
+                <input type="email" name="correo" id="correo" placeholder="Ingrese su correo"  class="form-control" onfocus="cambiarColorCORREO()" onblur="restaurarDiseñoCORREO()" required>
+            </div>
+            <br>
+            <div class="form-group" style="font-family: Arial, Helvetica, sans-serif;">
+                <label for="fono">Telefono:</label>
+                <input type="text" name="fono" id="fono" placeholder="Ingresar su numero telefonico"  class="form-control" minlength="9" maxlength="10" onfocus="cambiarColorTELEFONO()" onblur="restaurarDiseñoTELEFONO()"  required>
+            </div>
+            
+            <br>
+            <div class="form-group" style="font-family: Arial, Helvetica," >
+                <input type="button" value="Enviar" id="enviar" class="btn btn-outline-dark" style="margin-left: 10px;" onclick="alerta()" >
+                
+            </div>
+            
+        </form>
+    </div>
+    
+    <br><br>
+
+    <footer>
+        <div class="row col-12">
+            <div class="col-lg-2">
+                <img src="imglogos/imagen.png.jpg" alt="logoBookStop" width="60px" >
+            </div>
+            <br>
+            <div class="col-lg-1">
+                <a href="index.html" id="linkFooter"><strong>INICIO</strong></a>
+            </div>
+            <br>
+            <div class="col-lg-1">
+                <a href="produc.html" id="linkFooter"><strong>PRODUCTO</strong></a>
+            </div>
+            <br>
+            
+            <div class="col-lg-1">
+                <a href="carito.html" id="linkFooter"><strong>CARITO</strong></a>
+            </div>
+            <br>
+            <div class="col-lg-2">
+                <a href="informacion.html" id="linkFooter"><strong>INFORMACION</strong></a>
+            </div>
+
+            <div class="col-lg-2">
+                <br><br>
+               
+            </div>
+
+
+            <div class="col-lg-3">
+
+                <strong>Contacto</strong>
+                <br><br>
+                <div class="row">
+                    <img src="img/location.png" alt="" width="20px" height="20px"
+                        style="margin-right: 10px; margin-left: 15px;">
+                    <p>Av. Esq. Blanca 501, Maipú</p>
+                </div>
+                <div class="row">
+                    <img src="img/fono.png" alt="" width="20px" height="20px"
+                        style="margin-right: 10px; margin-left: 15px;">
+                    <p>225554000</p>
+                </div>
+                <div class="row">
+                    <img src="img/email.png" alt="" width="20px" height="20px"
+                        style="margin-right: 10px; margin-left: 15px;">
+                    <p>consulta@Pet-click.cl</p>
+                </div>
+                <div class="row">
+                    <a href="https://es-la.facebook.com/" target="_blank"><img src="imglogos/Logo_de_Facebook.jpg" alt="" width="30px" height="30px" 
+                        style=" margin-left: 15px;">
+                    <a href="https://twitter.com/i/flow/login/" target="_blank"><img src="imglogos/twitter.kjpg.webp" alt="" width="30px" height="30px" style=" margin-left: 10px;">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="imglogos/instagramhhhh.jpg" alt="" width="30px" height="30px" style=" margin-left: 10px;">
+                    
+                </div>
+                <br><br><br>
+
+                <p>&copy; Pet-click</Pet-clicK> - 2024</p>
+            </div>  
+        </div>
+    </footer>
+    <div class="container-fluid bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-white" href="#">PET-CLICK</a>. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed by <a class="text-white" href=""> Lukas Quiñilen & Patricio Catalan</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

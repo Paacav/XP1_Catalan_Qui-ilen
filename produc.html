@@ -20,6 +20,8 @@
     <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -37,94 +39,19 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
                 <a href="index.html" class="nav-item nav-link ">INICIO</a>
-                <a href="produc.html" class="nav-item nav-link ">PRODUCTO</a>
-                <a href="carito.html" class="nav-item nav-link active">CARITO</a>
+                <a href="carito.html" class="nav-item nav-link active">CARRITO</a>
                 <a href="informacion.html" class="nav-item nav-link ">INFORMACION</a>
-                <a href="contact.html" class="nav-item nav-link nav-contact bg-custom text-white px-5 ms-lg-5">Log-In <i
-                        class="bi bi-box-arrow-in-right"></i></a>
+                <a href="contacto.html" class="nav-item nav-link ">SUSCRIPCION</a>
+                <a href="calculadora.html" class="nav-item nav-link">CALCULADORA</a>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
+    </div>
 
     <!-- Products Start OFERTAS -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class=" container-fluid border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
-                <h1 class="text-custom text-uppercase text-center">OFERTAS DEL DIA</h1>
-            </div>
-
-            <div class="owl-carousel product-carousel">
-                <div class="pb-5">
-                    <div
-                        class="product-item bg-light d-flex flex-column text-center prods rounded-shadow">
-                        <img class="img-fluid mb-4 " src="imgdeproductos/comida.jpg" alt="comida de perro raza mediana">
-                        <br>
-                        <h6 class="text-uppercase">ProPlan Active Mind 7+ Razas Medianas</h6>
-                        <h5 class="mb-0">$25.900</h5>
-                        <div class="btn-action d-flex justify-content-center">
-                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
-                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-5">
-                    <div
-                        class="product-item position-relative bg-light d-flex flex-column text-center prods rounded-shadow">
-                        <img class="img-fluid mb-4 " src="imgdeproductos/comida2.jpg" alt="comida para puppy raza Pequeña">
-
-                        <h6 class="text-uppercase">
-                            ProPlan Puppy Razas Pequeña</h6>
-                        <h5 class="mb-0">$24.900 </h5>
-                        <div class="btn-action d-flex justify-content-center">
-                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
-                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-5">
-                    <div
-                        class="product-item position-relative bg-light d-flex flex-column text-center prods rounded-shadow">
-                        <img class="img-fluid mb-4 " src="imgdeproductos/comidacat.jpg" alt="comida de gato Kitten cat">
-                        <h6 class="text-uppercase">ProPlan Kitten Cat</h6>
-                        <h5 class="mb-0">$9.900</h5>
-                        <div class="btn-action d-flex justify-content-center">
-                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
-                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-5">
-                    <div
-                        class="product-item position-relative bg-light d-flex flex-column text-center prods rounded-shadow">
-                        <br><br><br>
-                        <img class="img-fluid mb-4 " src="imgdeproductos/comidacat2.jpg" alt="comida de gato adulto">
-                        <br>
-
-                        <h6 class="text-uppercase">ProPlan Adult Cat 7,5Kg</h6>
-                        <h5 class="mb-0">$25.000</h5>
-                        <div class="btn-action d-flex justify-content-center">
-                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
-                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-5">
-                    <div
-                        class="product-item position-relative bg-light d-flex flex-column text-center prods rounded-shadow">
-                        <img class="img-fluid mb-4 " src="imgdeproductos/shampoo.jpg" alt="shampoo de Ceramidas de 250ml">
-                        <h6 class="text-uppercase">SkinDrag Shampoo Ceramidas 250ml</h6>
-                        <h5 class="mb-0">$10.000</h5>
-                        <div class="btn-action d-flex justify-content-center">
-                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
-                            <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div> <!--FIN carrusel products-->
-        </div>
-    </div>
+    
     <!-- Products Ofertas End -->
 
 
@@ -330,38 +257,141 @@
     </div>
     </div>
 
+    <div class="container">
 
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-3">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="imgdeproductos/comida.jpg" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">ProPlan Active Mind 7+ Razas Medianas</h5>
+                        <p class="card-text">comida de perro de raza mediana</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">$25.900 </span>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="col-md-3">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="imgdeproductos/comida2.jpg" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">ProPlan Puppy Razas Pequeña</h5>
+                        <p class="card-text">Es un cuello para perros ortopedico comodo</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">$24.900</span>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 3 -->
+            <div class="col-md-3">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="imgdeproductos/comidacat.jpg" alt="Producto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">ProPlan Kitten Cat</h5>
+                        <p class="card-text">Es un juguete para animales de casa interactivo</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">$9.900</span>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 4 -->
+            <div class="col-md-3">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="imgdeproductos/comidacat2.jpg" alt="Producto 4">
+                    <div class="card-body">
+                        <h5 class="card-title">ProPlan Adult Cat 7,5Kg</h5>
+                        <p class="card-text">Pelotas simples para jugar con tu mascota y pasarlo bien</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">$25.000</span>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <br><br>
+    
     <!-- catalogo end -->
 
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-light mt-5 py-5">
-        <div class="container pt-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase border-start border-5  ps-3 mb-4">Opciones Frecuentes</h5>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-body mb-2" href="index.html"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>Inicio</a>
-                        <a class="text-body mb-2" href="informacion.html"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>Acerca de Nosotros</a>
-                        <a class="text-body mb-2" href="produc.html"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>Productos</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase border-start border-5  ps-3 mb-4">¿Nuevo por aqui?</h5>
-                    <form action="">
-                        <div class="input-group">
-                            <input type="text" class="form-control p-3" placeholder="Tu correo">
-                            <button class="btn btn-primary">Mandar Solicitud</button>
-                        </div>
-                    </form>
-                </div>
+
+
+    <footer>
+        <div class="row col-12">
+            <div class="col-lg-2">
+                <img src="imglogos/imagen.png.jpg" alt="logoBookStop" width="60px" >
             </div>
+            <br>
+            <div class="col-lg-1">
+                <a href="index.html" id="linkFooter"><strong>INICIO</strong></a>
+            </div>
+            <br>
+            <div class="col-lg-1">
+                <a href="produc.html" id="linkFooter"><strong>PRODUCTO</strong></a>
+            </div>
+            <br>
+            
+            <div class="col-lg-1">
+                <a href="carito.html" id="linkFooter"><strong>CARITO</strong></a>
+            </div>
+            <br>
+            <div class="col-lg-2">
+                <a href="informacion.html" id="linkFooter"><strong>INFORMACION</strong></a>
+            </div>
+            
+            <div class="col-lg-2">
+                <a href="contacto.html" id="linkFooter"><strong>SUSCRIPCION</strong></a>
+            </div>
+            
+
+          
+
+
+            <div class="col-lg-3">
+
+                <strong>Contacto</strong>
+                <br><br>
+                <div class="row">
+                    <img src="img/location.png" alt="" width="20px" height="20px"
+                        style="margin-right: 10px; margin-left: 15px;">
+                    <p>Av. Esq. Blanca 501, Maipú</p>
+                </div>
+                <div class="row">
+                    <img src="img/fono.png" alt="" width="20px" height="20px"
+                        style="margin-right: 10px; margin-left: 15px;">
+                    <p>225554000</p>
+                </div>
+                <div class="row">
+                    <img src="img/email.png" alt="" width="20px" height="20px"
+                        style="margin-right: 10px; margin-left: 15px;">
+                    <p>consulta@Pet-click.cl</p>
+                </div>
+                <div class="row">
+                    <a href="https://es-la.facebook.com/" target="_blank"><img src="imglogos/Logo_de_Facebook.jpg" alt="" width="30px" height="30px" 
+                        style=" margin-left: 15px;">
+                    <a href="https://twitter.com/i/flow/login/" target="_blank"><img src="imglogos/twitter.kjpg.webp" alt="" width="30px" height="30px" style=" margin-left: 10px;">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="imglogos/instagramhhhh.jpg" alt="" width="30px" height="30px" style=" margin-left: 10px;">
+                    
+                </div>
+                <br><br><br>
+
+                <p>&copy; Pet-click</Pet-clicK> - 2024</p>
+            </div>  
         </div>
-    </div>
+    </footer>
     </div>
     <div class="container-fluid bg-dark text-white-50 py-4">
         <div class="container">
@@ -371,12 +401,14 @@
                     </p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Designed by <a class="text-white" href=""> lukas quiñilen & patricio catalan</a></p>
+                    <p class="mb-0">Designed by <a class="text-white" href=""> Lukas Quiñilen & Patricio Catalan</a></p>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
+
+    
 
 
 

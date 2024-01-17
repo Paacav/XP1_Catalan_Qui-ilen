@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>PET-CLICK calculadora</title>
+    <link rel="icon" href="imglogos/imagen.png.jpg" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+
+    <!-- Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
+        <a href="index.html" class="navbar-brand ms-lg-5">
+            <img src="imglogos/imagen.png.jpg" alt="logoBookStop" width="90px">
+             
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link ">INICIO</a>
+                <a href="produc.html" class="nav-item nav-link active">PRODUCTO</a>
+                <a href="carito.html" class="nav-item nav-link">CARRITO</a>
+                <a href="informacion.html" class="nav-item nav-link">INFORMACION</a>    
+                <a href="contacto.html" class="nav-item nav-link">SUSCRIPCION</a>
+            </div>
+        </div>
+    </nav>
+    </nav>
+    <li class="clock">
+        <div id="clock"></div>
+    </li>
+    <!-- Navbar End -->
+    <!-- calculadora -->
+    <DIV class="titulos pb-5 p-4  text-center">
+        <h1 class=" flex-column">CALCULADORA PET-CLICK </h1>
+    </DIV>
+
+    <div id="calculator" >
+        <div id="screenContainer">
+            <input type="text" id='screen' disabled= 'true'>
+        </div>
+        <div id="buttonContainer">    
+                <button id='one' onclick='addToScreen("1")'>1</button>
+                <button id='two' onclick='addToScreen("2")'>2</button>
+                <button id='three' onclick='addToScreen("3")'>3</button>
+                <button id='multiplier' onclick='addToScreen("*")'>*</button>
+                <button id="cleaner">C</button>
+                <button id='four' onclick='addToScreen("4")'>4</button>
+                <button id='five' onclick='addToScreen("5")'>5</button>
+                <button id='six' onclick='addToScreen("6")'>6</button>
+                <button id='divider' onclick='addToScreen("/")'>/</button>
+                <button id='delete'>&larr; </button>
+                <button id='seven' onclick='addToScreen("7")'>7</button>
+                <button id='eight' onclick='addToScreen("8")'>8</button>
+                <button id='nine' onclick='addToScreen("9")'>9</button>
+                <button id='plus' onclick='addToScreen("+")'>+</button>
+                <button id='equal' onclick='result()'>=</button>
+                <button id='zero' onclick='addToScreen("0")'>0</button>
+                <button id='dot' onclick='addToScreen(".")'>.</button>
+                <button id='dbzero' onclick='addToScreen("00")'>00</button>
+                <button id='minus' onclick='addToScreen("-")'>-</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+    <!-- fin calculadora -->
+
+
+
+
+    <br><br><br>
+    <!-- Footer Start -->
+    <footer>
+        <div class="row col-12">
+            <div class="col-lg-2">
+                <img src="imglogos/imagen.png.jpg" alt="logoBookStop" width="60px" >
+            </div>
+            <br>
+            <div class="col-lg-1">
+                <a href="index.html" id="linkFooter"><strong>INICIO</strong></a>
+            </div>
+            <br>
+            <div class="col-lg-1">
+                <a href="produc.html" id="linkFooter"><strong>PRODUCTO</strong></a>
+            </div>
+            <br>
+            
+            <div class="col-lg-1">
+                <a href="carito.html" id="linkFooter"><strong>CARRITO</strong></a>
+            </div>
+            <br>
+            <div class="col-lg-2">
+                <a href="informacion.html" id="linkFooter"><strong>INFORMACION</strong></a>
+            </div>
+            <div class="col-lg-2">
+                <a href="contacto.html" id="linkFooter"><strong>SUSCRIPCION</strong></a>
+            </div>
+            
+           
+
+
+            <div class="col-lg-3">
+
+                <strong>Contacto</strong>
+                <br><br>
+                <div class="row">
+                    <img src="img/location.png" alt="" width="20px" height="20px"
+                        style="margin-right: 10px; margin-left: 15px;">
+                    <p>Av. Esq. Blanca 501, Maipú</p>
+                </div>
+                <div class="row">
+                    <img src="img/fono.png" alt="" width="20px" height="20px"
+                        style="margin-right: 10px; margin-left: 15px;">
+                    <p>225554000</p>
+                </div>
+                <div class="row">
+                    <img src="img/email.png" alt="" width="20px" height="20px"
+                        style="margin-right: 10px; margin-left: 15px;">
+                    <p>consulta@Pet-click.cl</p>
+                </div>
+                <div class="row">
+                    <a href="https://es-la.facebook.com/" target="_blank"><img src="imglogos/Logo_de_Facebook.jpg" alt="" width="30px" height="30px" 
+                        style=" margin-left: 15px;">
+                    <a href="https://twitter.com/i/flow/login/" target="_blank"><img src="imglogos/twitter.kjpg.webp" alt="" width="30px" height="30px" style=" margin-left: 10px;">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="imglogos/instagramhhhh.jpg" alt="" width="30px" height="30px" style=" margin-left: 10px;">
+                    
+                </div>
+                <br><br><br>
+
+                <p>&copy; Pet-click</Pet-clicK> - 2024</p>
+            </div>  
+        </div>
+    </footer>   
+    </div>
+</div>
+</div>
+</div>
+<div class="container-fluid bg-dark text-white-50 py-4">
+<div class="container">
+<div class="row g-5">
+    <div class="col-md-6 text-center text-md-start">
+        <p class="mb-md-0">&copy; <a class="text-white" href="#">PET-CLICK</a>. All Rights Reserved.
+        </p>
+    </div>
+    <div class="col-md-6 text-center text-md-end">
+        <p class="mb-0">Designed by <a class="text-white" href=""> Lukas Quiñilen & Patricio Catalan</a></p>
+    </div>
+</div>
+</div>
+</div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/calculadora.js"></script>
+</body>
+
+</html>
